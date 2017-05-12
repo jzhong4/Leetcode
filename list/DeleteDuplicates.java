@@ -1,32 +1,27 @@
-package list;
-
 /**
  * Definition for singly-linked list.
  * public class ListNode {
  *     int val;
  *     ListNode next;
- *     ListNode(int x) {
- *         val = x;
- *         next = null;
- *     }
+ *     ListNode(int x) { val = x; }
  * }
  */
-public class DeleteDuplicates {
-	public ListNode deleteDuplicates(ListNode head) {
+public class Solution {
+    public ListNode deleteDuplicates(ListNode head) {
         if(head == null){
-            return head;
+            return null;
         }
-        ListNode l1 = head;
-        ListNode l2 = head.next;
-        while(l2 != null){
-            if(l1.val == l2.val){
-                l2 = l2.next;
-                l1.next = l2;
+        //因为要返回head,所以这里建立可以扫描的node点
+        ListNode node = head;
+        //检查next点是不是为空
+        while(node.next != null){
+            //相等的话，删除这个点
+            if(node.val == node.next.val){
+                node.next = node.next.next;
             }else{
-                l1 = l2;
-                l2 = l2.next;
+                node = node.next;
             }
         }
-       return head; 
+        return head;
     }
 }

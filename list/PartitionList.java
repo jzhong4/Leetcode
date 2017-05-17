@@ -1,35 +1,34 @@
-package list;
-
 /**
  * Definition for singly-linked list.
  * public class ListNode {
  *     int val;
  *     ListNode next;
- *     ListNode(int x) {
- *         val = x;
- *         next = null;
- *     }
+ *     ListNode(int x) { val = x; }
  * }
  */
-public class PartitionList {
-	public ListNode partition(ListNode head, int x) {
-		ListNode dummyNode1 = new ListNode(0);
-		ListNode head1 = dummyNode1;
-		ListNode dummyNode2 = new ListNode(0);
-		ListNode head2 = dummyNode2;
-
-		while (head != null) {
-			if (head.val < x) {
-				head1.next = head;
-				head1 = head;
-			} else {
-				head2.next = head;
-				head2 = head;
-			}
-			head = head.next;
-		}
-		head1.next = dummyNode2.next;
-		head2.next = null;
-		return dummyNode1.next;
-	}
+public class Solution {
+    public ListNode partition(ListNode head, int x) {
+        if(head == null){
+            return null;
+        }
+        
+        ListNode leftDummy = new ListNode(0);
+        ListNode rightDummy = new ListNode(0);
+        //需要扫描，移动的点
+        ListNode left = leftDummy, right = rightDummy;
+        
+        while(head!= null){
+            if(head.val < x){
+                left.next = head;
+                left = head;
+            }else{
+                right.next = head;
+                right = head;
+            }
+            head = head.next;
+        }
+        right.next = null;
+        left.next = rightDummy.next;
+        return leftDummy.next;
+    }
 }

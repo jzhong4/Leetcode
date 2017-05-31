@@ -1,21 +1,38 @@
+/*
+ Author:     Junjie
+ Date:       May 30, 2017
+ Problem:    Maximum Depth of Binary Tree
+ Difficulty: Easy
+ Source:     http://www.lintcode.com/en/problem/maximum-depth-of-binary-tree/#
+ Notes:
+ Given a binary tree, find its maximum depth.
+ The maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
+ Solution: Divide and Conquer, Recursion
+ */
 /**
- * Definition for a binary tree node.
+ * Definition of TreeNode:
  * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
+ *     public int val;
+ *     public TreeNode left, right;
+ *     public TreeNode(int val) {
+ *         this.val = val;
+ *         this.left = this.right = null;
+ *     }
  * }
  */
 public class Solution {
+    /**
+     * @param root: The root of binary tree.
+     * @return: An integer.
+     */
     public int maxDepth(TreeNode root) {
         if(root == null){
             return 0;
         }
         
-        int left = maxDepth(root.left);
-        int right = maxDepth(root.right);
+        int leftDepth = maxDepth(root.left);
+        int rightDepth = maxDepth(root.right);
         
-        return Math.max(left, right) + 1;
+        return Math.max(leftDepth, rightDepth) + 1;
     }
 }

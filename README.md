@@ -4,4 +4,4 @@
 | Squence | Problem       | Level  | Category  | Reference |
 |:-------:|:--------------|:------:|:---------:|:---------:|
 |1|[Binary Tree Preorder Traversal](https://github.com/jzhong4/Leetcode/blob/master/Tree/BinaryTreePreorderTraversal.java)|Easy|Binary Tree||
-|2|[Maximum Depth of Binary Tree](https://github.com/jzhong4/Leetcode/blob/master/Java/MaximumDepthOfBinaryTree.java)|Easy|Binary Tree||
+|2|[Maximum Depth of Binary Tree](https://github.com/jzhong4/Leetcode/blob/master/Tree/MaximumDepthOfBinaryTree.java)|Easy|Binary Tree||

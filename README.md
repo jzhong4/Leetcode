@@ -8,4 +8,5 @@
 |3|[Binary Tree Inorder Traversal](https://github.com/jzhong4/Leetcode/blob/master/Tree/BinaryTreeInorderTraversal.java)|Easy|Tree|[Stack解法](https://discuss.leetcode.com/topic/29472/concise-java-solution-based-on-stack)|
 |4|[Maximum Depth of Binary Tree](https://github.com/jzhong4/Leetcode/blob/master/Tree/MaximumDepthOfBinaryTree.java)|Easy|Tree||
 |5|[Minimum Depth of Binary Tree](https://github.com/jzhong4/Leetcode/blob/master/Tree/MinimumDepthOfBinaryTree.java)|Easy|Tree||
-|6|[Diameter of Binary Tree](https://github.com/jzhong4/Leetcode/blob/master/Tree/DiameterOfBinaryTree.java)|Easy|Tree|[Hint](https://discuss.leetcode.com/topic/83456/java-solution-maxdepth)|
+|6|[Balanced Binary Tree](https://github.com/jzhong4/Leetcode/blob/master/Tree/BalancedBinaryTree.java)|Easy|Tree||
+|7|[Diameter of Binary Tree](https://github.com/jzhong4/Leetcode/blob/master/Tree/DiameterOfBinaryTree.java)|Easy|Tree|[Hint](https://discuss.leetcode.com/topic/83456/java-solution-maxdepth)|

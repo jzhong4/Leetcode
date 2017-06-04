@@ -15,5 +15,5 @@
 |10|[Binary Tree Level Order TraversalII](https://github.com/jzhong4/Leetcode/blob/master/Tree/BinaryTreeLevelOrderTraversalII.java)|Medium|Tree||
 |11|[Binary Tree Zigzag Level Order Traversal](https://github.com/jzhong4/Leetcode/blob/master/Tree/BinaryTreeZigzagLevelOrderTraversal.java)|Medium|Tree||
 |12|[Validate Binary Search Tree](https://github.com/jzhong4/Leetcode/blob/master/Tree/ValidateBinarySearchTree.java)|Medium|Tree|[Stack解法](https://discuss.leetcode.com/topic/46016/learn-one-iterative-inorder-traversal-apply-it-to-multiple-tree-questions-java-solution)|
-|13|[Insert Node in a Binary Search Tree ](https://github.com/jzhong4/Leetcode/blob/master/Tree/InsertNodeInaBinarySearchTree.java)|Easy|Tree||
+|13|[Insert Node In a Binary Search Tree ](https://github.com/jzhong4/Leetcode/blob/master/Tree/InsertNodeInaBinarySearchTree.java)|Easy|Tree||
 |14|[Diameter of Binary Tree](https://github.com/jzhong4/Leetcode/blob/master/Tree/DiameterOfBinaryTree.java)|Easy|Tree|[Hint](https://discuss.leetcode.com/topic/83456/java-solution-maxdepth)|

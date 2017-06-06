@@ -22,3 +22,5 @@
 |17|[Diameter of Binary Tree](https://github.com/jzhong4/Leetcode/blob/master/Tree/DiameterOfBinaryTree.java)|Easy|Tree|[Hint](https://discuss.leetcode.com/topic/83456/java-solution-maxdepth)|
 |18|[Remove Duplicates From Sorted List](https://github.com/jzhong4/Leetcode/blob/master/LinkedList/RemoveDuplicatesFromSortedList.java)|Easy|Linked List||
 |19|[Remove Duplicates From Sorted List II](https://github.com/jzhong4/Leetcode/blob/master/LinkedList/RemoveDuplicatesFromSortedListII.java)|Medium|Linked List||
+|20|[Reverse Linked List](https://github.com/jzhong4/Leetcode/blob/master/LinkedList/ReverseLinkedList.java)|Easy|Linked List||
+|21|[Reverse Linked List II](https://github.com/jzhong4/Leetcode/blob/master/LinkedList/ReverseLinkedListII.java)|Medium|Linked List||

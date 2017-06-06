@@ -20,3 +20,5 @@
 |15|[Binary Search Tree Iterator](https://github.com/jzhong4/Leetcode/blob/master/Tree/BinarySearchTreeIterator.java)|Hard|Tree||
 |16|[Remove Node in Binary Search Tree ](https://github.com/jzhong4/Leetcode/blob/master/Tree/RemoveNodeInBinarySearchTree.java)|Hard|Tree|[Hint](http://www.algolist.net/Data_structures/Binary_search_tree/Removal)|
 |17|[Diameter of Binary Tree](https://github.com/jzhong4/Leetcode/blob/master/Tree/DiameterOfBinaryTree.java)|Easy|Tree|[Hint](https://discuss.leetcode.com/topic/83456/java-solution-maxdepth)|
+|18|[Remove Duplicates From Sorted List](https://github.com/jzhong4/Leetcode/blob/master/LinkedList/RemoveDuplicatesFromSortedList.java)|Easy|Linked List||
+|19|[Remove Duplicates From Sorted List II](https://github.com/jzhong4/Leetcode/blob/master/LinkedList/RemoveDuplicatesFromSortedListII.java)|Medium|Linked List||

@@ -1,12 +1,25 @@
+/*
+ Author:     Junjie
+ Date:       June 6, 2017
+ Problem:    Sort List
+ Difficulty: Medium
+ Source:     http://www.lintcode.com/en/problem/sort-list/
+ Sort a linked list in O(n log n) time using constant space complexity.
+ Example
+ Given 1->3->2->null, sort it to 1->2->3->null. 
+ Solution: merge sort, recursion, time O(nlogn) and space O(1) complexity O(nlogn), find middle node, merge two lists
+ */
 /**
- * Definition for singly-linked list.
+ * Definition for ListNode.
  * public class ListNode {
  *     int val;
  *     ListNode next;
- *     ListNode(int x) { val = x; }
+ *     ListNode(int val) {
+ *         this.val = val;
+ *         this.next = null;
+ *     }
  * }
  */
- //可以采用quick sort，这里做法是merge sort，因为merge sort在list当中不需要额外空间
 public class Solution {
     //找终点，固定模板
     private ListNode findMiddle(ListNode head){
@@ -38,8 +51,9 @@ public class Solution {
         }
         return dummy.next;
     }
-    
+    //merge sort, merge sort在list中，不需要额外空间
     public ListNode sortList(ListNode head) {
+        //注意退出条件
         if(head == null || head.next == null){
             return head;
         }

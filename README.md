@@ -27,5 +27,7 @@
 |22|[Merge Two Sorted Lists](https://github.com/jzhong4/Leetcode/blob/master/LinkedList/MergeTwoSortedLists.java)|Easy|Linked List||
 |23|[Partition List](https://github.com/jzhong4/Leetcode/blob/master/LinkedList/PartitionList.java)|Easy|Linked List||
 |24|[Sort List](https://github.com/jzhong4/Leetcode/blob/master/LinkedList/SortList.java)|Medium|Linked List||
+|25|[Reorder List](https://github.com/jzhong4/Leetcode/blob/master/LinkedList/ReorderList.java)|Medium|Linked List||
+
 
 

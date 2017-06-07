@@ -24,3 +24,6 @@
 |19|[Remove Duplicates From Sorted List II](https://github.com/jzhong4/Leetcode/blob/master/LinkedList/RemoveDuplicatesFromSortedListII.java)|Medium|Linked List||
 |20|[Reverse Linked List](https://github.com/jzhong4/Leetcode/blob/master/LinkedList/ReverseLinkedList.java)|Easy|Linked List||
 |21|[Reverse Linked List II](https://github.com/jzhong4/Leetcode/blob/master/LinkedList/ReverseLinkedListII.java)|Medium|Linked List||
+|22|[Merge Two Sorted Lists](https://github.com/jzhong4/Leetcode/blob/master/LinkedList/MergeTwoSortedLists.java)|Easy|Linked List||
+|23|[Partition List](https://github.com/jzhong4/Leetcode/blob/master/LinkedList/PartitionList.java)|Easy|Linked List||
+

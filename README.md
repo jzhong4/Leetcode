@@ -33,6 +33,7 @@
 |28|[Linked List Cycle II](https://github.com/jzhong4/Leetcode/blob/master/TwoPointers/LinkedListCycleII.java)|Hard|Linked List||
 |29|[Merge k Sorted Lists](https://github.com/jzhong4/Leetcode/blob/master/LinkedList/MergeKSortedLists.java)|Medium|Linked List||
 |30|[Copy List with Random Pointer](https://github.com/jzhong4/Leetcode/blob/master/LinkedList/CopyListwithRandomPointer.java)|Medium|Linked List||
+|31|[Convert Sorted List To Balanced BST](https://github.com/jzhong4/Leetcode/blob/master/LinkedList/ConvertSortedListToBalancedBST.java)|Medium|Linked List|[Hint](http://www.geeksforgeeks.org/sorted-linked-list-to-balanced-bst/)|
 
 
 

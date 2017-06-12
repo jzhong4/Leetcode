@@ -34,6 +34,12 @@
 |29|[Merge k Sorted Lists](https://github.com/jzhong4/Leetcode/blob/master/LinkedList/MergeKSortedLists.java)|Medium|Linked List||
 |30|[Copy List with Random Pointer](https://github.com/jzhong4/Leetcode/blob/master/LinkedList/CopyListwithRandomPointer.java)|Medium|Linked List||
 |31|[Convert Sorted List To Balanced BST](https://github.com/jzhong4/Leetcode/blob/master/LinkedList/ConvertSortedListToBalancedBST.java)|Medium|Linked List|[Hint](http://www.geeksforgeeks.org/sorted-linked-list-to-balanced-bst/)|
+|32|[Triangle](https://github.com/jzhong4/Leetcode/blob/master/DP/Triangle.java)|Easy|DP||
+|33|[Minimum Path Sum](https://github.com/jzhong4/Leetcode/blob/master/DP/MinimumPathSum.java)|Easy|DP||
+|34|[Unique Paths](https://github.com/jzhong4/Leetcode/blob/master/DP/UniquePaths.java)|Easy|DP||
+|35|[Unique Paths II](https://github.com/jzhong4/Leetcode/blob/master/DP/UniquePathsII.java)|Easy|DP||
+
+
 
 
 

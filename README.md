@@ -38,6 +38,9 @@
 |33|[Minimum Path Sum](https://github.com/jzhong4/Leetcode/blob/master/DP/MinimumPathSum.java)|Easy|DP||
 |34|[Unique Paths](https://github.com/jzhong4/Leetcode/blob/master/DP/UniquePaths.java)|Easy|DP||
 |35|[Unique Paths II](https://github.com/jzhong4/Leetcode/blob/master/DP/UniquePathsII.java)|Easy|DP||
+|36|[Climbing Stairs](https://github.com/jzhong4/Leetcode/blob/master/DP/ClimbingStairs.java)|Easy|DP||
+|37|[Jump Game](https://github.com/jzhong4/Leetcode/blob/master/DP/JumpGame.java)|Medium|DP||
+|38|[Jump Game II](https://github.com/jzhong4/Leetcode/blob/master/DP/JumpGameII.java)|Medium|DP||
 
 
 

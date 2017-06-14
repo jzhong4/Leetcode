@@ -41,6 +41,9 @@
 |36|[Climbing Stairs](https://github.com/jzhong4/Leetcode/blob/master/DP/ClimbingStairs.java)|Easy|DP||
 |37|[Jump Game](https://github.com/jzhong4/Leetcode/blob/master/DP/JumpGame.java)|Medium|DP||
 |38|[Jump Game II](https://github.com/jzhong4/Leetcode/blob/master/DP/JumpGameII.java)|Medium|DP||
+|39|[Palindrome Partitioning II](https://github.com/jzhong4/Leetcode/blob/master/DP/PalindromePartitioningII.java)|Medium|DP||
+|40|[Word Break](https://github.com/jzhong4/Leetcode/blob/master/DP/WordBreak.java)|Medium|DP||
+|41|[Longest Increasing Subsequence](https://github.com/jzhong4/Leetcode/blob/master/DP/LongestIncreasingSubsequence.java)|Medium|DP||
 
 
 

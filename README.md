@@ -44,8 +44,9 @@
 |39|[Palindrome Partitioning II](https://github.com/jzhong4/Leetcode/blob/master/DP/PalindromePartitioningII.java)|Medium|DP||
 |40|[Word Break](https://github.com/jzhong4/Leetcode/blob/master/DP/WordBreak.java)|Medium|DP||
 |41|[Longest Increasing Subsequence](https://github.com/jzhong4/Leetcode/blob/master/DP/LongestIncreasingSubsequence.java)|Medium|DP||
-
-
+|42|[Longest Common Subsequence](https://github.com/jzhong4/Leetcode/blob/master/DP/LongestCommonSubsequence.java)|Medium|DP||
+|43|[Longest Common Substring](https://github.com/jzhong4/Leetcode/blob/master/DP/LongestCommonSubstring.java)|Medium|DP||
+|44|[Edit Distance](https://github.com/jzhong4/Leetcode/blob/master/DP/EditDistance.java)|Medium|DP||
 
 
 

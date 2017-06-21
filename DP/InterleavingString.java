@@ -1,6 +1,6 @@
 /*
  Author:     Junjie
- Date:       June 15, 2017
+ Date:       June 20, 2017
  Problem:    Interleaving String
  Difficulty: Medium
  Source:     http://www.lintcode.com/en/problem/interleaving-string

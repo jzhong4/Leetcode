@@ -52,6 +52,7 @@
 |47|[Backpack](https://github.com/jzhong4/Leetcode/blob/master/DP/Backpack.java)|Medium|DP||
 |48|[Backpack II](https://github.com/jzhong4/Leetcode/blob/master/DP/BackpackII.java)|Medium|DP||
 |49|[K Sum](https://github.com/jzhong4/Leetcode/blob/master/DP/KSum.java)|Hard|DP||
+|50|[Minimum Adjustment Cost](https://github.com/jzhong4/Leetcode/blob/master/DP/MinimumAdjustmentCost.java)|Medium|DP|[Hint](https://dcbupt.github.io/2017/03/27/FarBox/Forwarddc/算法/最小调整代价/)|
 
 
 

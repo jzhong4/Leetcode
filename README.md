@@ -47,6 +47,8 @@
 |42|[Longest Common Subsequence](https://github.com/jzhong4/Leetcode/blob/master/DP/LongestCommonSubsequence.java)|Medium|DP||
 |43|[Longest Common Substring](https://github.com/jzhong4/Leetcode/blob/master/DP/LongestCommonSubstring.java)|Medium|DP||
 |44|[Edit Distance](https://github.com/jzhong4/Leetcode/blob/master/DP/EditDistance.java)|Medium|DP||
+|45|[Distinct Subsequences](https://github.com/jzhong4/Leetcode/blob/master/DP/DistinctSubsequences.java)|Medium|DP||
+|46|[Interleaving String](https://github.com/jzhong4/Leetcode/blob/master/DP/InterleavingString.java)|Medium|DP||
 
 
 

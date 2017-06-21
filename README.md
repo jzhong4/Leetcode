@@ -49,6 +49,9 @@
 |44|[Edit Distance](https://github.com/jzhong4/Leetcode/blob/master/DP/EditDistance.java)|Medium|DP||
 |45|[Distinct Subsequences](https://github.com/jzhong4/Leetcode/blob/master/DP/DistinctSubsequences.java)|Medium|DP||
 |46|[Interleaving String](https://github.com/jzhong4/Leetcode/blob/master/DP/InterleavingString.java)|Medium|DP||
+|47|[Backpack](https://github.com/jzhong4/Leetcode/blob/master/DP/Backpack.java)|Medium|DP||
+|48|[Backpack II](https://github.com/jzhong4/Leetcode/blob/master/DP/BackpackII.java)|Medium|DP||
+|49|[K Sum](https://github.com/jzhong4/Leetcode/blob/master/DP/KSum.java)|Hard|DP||
 
 
 

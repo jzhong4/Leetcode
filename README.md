@@ -55,6 +55,8 @@
 |50|[Minimum Adjustment Cost](https://github.com/jzhong4/Leetcode/blob/master/DP/MinimumAdjustmentCost.java)|Medium|DP|[Hint](https://dcbupt.github.io/2017/03/27/FarBox/Forwarddc/算法/最小调整代价/)|
 |51|[Clone Graph](https://github.com/jzhong4/Leetcode/blob/master/Graph/CloneGraph.java)|Medium|Graph||
 |52|[Topological Sorting](https://github.com/jzhong4/Leetcode/blob/master/Graph/TopologicalSorting.java)|Medium|Graph||
+|53|[Permutations](https://github.com/jzhong4/Leetcode/blob/master/Search/Permutations.java)|Medium|Search||
+|54|[Subsets](https://github.com/jzhong4/Leetcode/blob/master/Search/Subsets.java)|Medium|Search||
 
 
 

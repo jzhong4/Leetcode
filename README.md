@@ -57,6 +57,8 @@
 |52|[Topological Sorting](https://github.com/jzhong4/Leetcode/blob/master/Graph/TopologicalSorting.java)|Medium|Graph||
 |53|[Permutations](https://github.com/jzhong4/Leetcode/blob/master/Search/Permutations.java)|Medium|Search||
 |54|[Subsets](https://github.com/jzhong4/Leetcode/blob/master/Search/Subsets.java)|Medium|Search||
+|55|[N-Queens](https://github.com/jzhong4/Leetcode/blob/master/Search/N-Queens.java)|Medium|Search||
+|56|[Subsets II](https://github.com/jzhong4/Leetcode/blob/master/Search/SubsetsII.java)|Medium|Search||
 
 
 

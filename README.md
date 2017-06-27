@@ -62,8 +62,8 @@
 |57|[Palindrome Partitioning](https://github.com/jzhong4/Leetcode/blob/master/Search/PalindromePartitioning.java)|Medium|Search||
 |58|[Combination Sum](https://github.com/jzhong4/Leetcode/blob/master/Search/CombinationSum.java)|Medium|Search||
 |59|[Combination Sum II](https://github.com/jzhong4/Leetcode/blob/master/Search/CombinationSumII.java)|Medium|Search||
-
-
+|60|[Word Ladder](https://github.com/jzhong4/Leetcode/blob/master/Search/WordLadder.java)|Medium|Search||
+|61|[Word Ladder II](https://github.com/jzhong4/Leetcode/blob/master/Search/WordLadderII.java)|Hard|Search||
 
 
 

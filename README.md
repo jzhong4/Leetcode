@@ -59,6 +59,9 @@
 |54|[Subsets](https://github.com/jzhong4/Leetcode/blob/master/Search/Subsets.java)|Medium|Search||
 |55|[N-Queens](https://github.com/jzhong4/Leetcode/blob/master/Search/N-Queens.java)|Medium|Search||
 |56|[Subsets II](https://github.com/jzhong4/Leetcode/blob/master/Search/SubsetsII.java)|Medium|Search||
+|57|[Palindrome Partitioning](https://github.com/jzhong4/Leetcode/blob/master/Search/PalindromePartitioning.java)|Medium|Search||
+|58|[Combination Sum](https://github.com/jzhong4/Leetcode/blob/master/Search/CombinationSum.java)|Medium|Search||
+|59|[Combination Sum II](https://github.com/jzhong4/Leetcode/blob/master/Search/CombinationSumII.java)|Medium|Search||
 
 
 

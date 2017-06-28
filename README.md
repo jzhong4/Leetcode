@@ -67,6 +67,9 @@
 |62|[Single Number](https://github.com/jzhong4/Leetcode/blob/master/Bit/SingleNumber.java)|Easy|Bit||
 |63|[Single Number II](https://github.com/jzhong4/Leetcode/blob/master/Bit/SingleNumberII.java)|Medium|Bit||
 |64|[Single Number III](https://github.com/jzhong4/Leetcode/blob/master/Bit/SingleNumberIII.java)|Medium|Bit||
+|65|[Majority Number](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/MajorityNumber.java)|Easy|Miscellaneous||
+|66|[Majority Number II](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/MajorityNumberII.java)|Medium|Miscellaneous||
+|67|[Majority Number III](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/MajorityNumberIII.java)|Medium|Miscellaneous|[Hint](http://blog.csdn.net/nicaishibiantai/article/details/43636799)|
 
 
 

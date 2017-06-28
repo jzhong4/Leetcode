@@ -64,6 +64,9 @@
 |59|[Combination Sum II](https://github.com/jzhong4/Leetcode/blob/master/Search/CombinationSumII.java)|Medium|Search||
 |60|[Word Ladder](https://github.com/jzhong4/Leetcode/blob/master/Search/WordLadder.java)|Medium|Search||
 |61|[Word Ladder II](https://github.com/jzhong4/Leetcode/blob/master/Search/WordLadderII.java)|Hard|Search||
+|62|[Single Number](https://github.com/jzhong4/Leetcode/blob/master/Bit/SingleNumber.java)|Easy|Bit||
+|63|[Single Number II](https://github.com/jzhong4/Leetcode/blob/master/Bit/SingleNumberII.java)|Medium|Bit||
+|64|[Single Number III](https://github.com/jzhong4/Leetcode/blob/master/Bit/SingleNumberIII.java)|Medium|Bit||
 
 
 

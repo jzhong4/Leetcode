@@ -76,4 +76,7 @@
 |71|[Maximum Subarray](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/MaximumSubarray.java)|Easy|Miscellaneous||
 |72|[Maximum Subarray II](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/MaximumSubarrayII.java)|Medium|Miscellaneous||
 |73|[Minimum Subarray](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/MinimumSubarray.java)|Easy|Miscellaneous|
+|74|[Maximum Subarray Difference](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/MaximumSubarrayDifference.java)|Medium|Miscellaneous||
+|75|[Subarray Sum](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/SubarraySum.java)|Easy|Miscellaneous||
+|76|[Subarray Sum Closest](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/SubarraySumClosest.java)|Medium|Miscellaneous|
 

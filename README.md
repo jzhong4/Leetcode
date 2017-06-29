@@ -79,4 +79,7 @@
 |74|[Maximum Subarray Difference](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/MaximumSubarrayDifference.java)|Medium|Miscellaneous||
 |75|[Subarray Sum](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/SubarraySum.java)|Easy|Miscellaneous||
 |76|[Subarray Sum Closest](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/SubarraySumClosest.java)|Medium|Miscellaneous|
-
+|77|[Two Sum](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/TwoSum.java)|Easy|Miscellaneous||
+|78|[3Sum](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/3Sum.java)|Medium|Miscellaneous|
+|79|[3Sum Closest](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/3SumClosest.java)|Medium|Miscellaneous|
+|80|[4Sum](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/4Sum.java)|Medium|Miscellaneous|

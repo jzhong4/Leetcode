@@ -70,6 +70,9 @@
 |65|[Majority Number](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/MajorityNumber.java)|Easy|Miscellaneous||
 |66|[Majority Number II](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/MajorityNumberII.java)|Medium|Miscellaneous||
 |67|[Majority Number III](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/MajorityNumberIII.java)|Medium|Miscellaneous|[Hint](http://blog.csdn.net/nicaishibiantai/article/details/43636799)|
+|68|[Best Time to Buy and Sell Stock](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/BestTimetoBuyandSellStock.java)|Medium|Miscellaneous||
+|69|[Best Time to Buy and Sell Stock II](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/BestTimetoBuyandSellStockII.java)|Medium|Miscellaneous||
+|70|[Best Time to Buy and Sell Stock III](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/BestTimetoBuyandSellStockIII.java)|Medium|Miscellaneous||
 
 
 

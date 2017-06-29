@@ -73,6 +73,7 @@
 |68|[Best Time to Buy and Sell Stock](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/BestTimetoBuyandSellStock.java)|Medium|Miscellaneous||
 |69|[Best Time to Buy and Sell Stock II](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/BestTimetoBuyandSellStockII.java)|Medium|Miscellaneous||
 |70|[Best Time to Buy and Sell Stock III](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/BestTimetoBuyandSellStockIII.java)|Medium|Miscellaneous||
-
-
+|71|[Maximum Subarray](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/MaximumSubarray.java)|Easy|Miscellaneous||
+|72|[Maximum Subarray II](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/MaximumSubarrayII.java)|Medium|Miscellaneous||
+|73|[Minimum Subarray](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/MinimumSubarray.java)|Easy|Miscellaneous|
 

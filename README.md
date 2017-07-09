@@ -85,3 +85,6 @@
 |80|[4Sum](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/4Sum.java)|Medium|Miscellaneous||
 |81|[kSum](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/kSum.java)|Hard|Miscellaneous||
 |82|[Fast Power](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/FastPower.java)|Medium|Miscellaneous|[Hint](https://algorithm.yuanbin.me/zh-hans/math_and_bit_manipulation/fast_power.html)|
+|83|[Sqrt(x)](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/Sqrt(x).java)|Easy|Miscellaneous|[Hint](https://algorithm.yuanbin.me/zh-hans/math_and_bit_manipulation/fast_power.html)|
+|84|[Trailing Zeros](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/TrailingZeros.java)|Easy|Miscellaneous|[Hint](http://blog.csdn.net/wutingyehe/article/details/46882181)|
+|85|[O(1) Check Power of 2](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/O(1)CheckPowerof2.java)|Easy|Miscellaneous|[Hint](http://www.code123.cc/docs/leetcode-notes/math_and_bit_manipulation/o1_check_power_of_2.html)|

@@ -19,6 +19,6 @@ class Solution {
             return false;
         }
         
-        
+        return (n & (n - 1)) == 0;
     }
 };

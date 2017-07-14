@@ -88,3 +88,7 @@
 |83|[Sqrt(x)](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/Sqrt(x).java)|Easy|Miscellaneous|[Hint](https://algorithm.yuanbin.me/zh-hans/math_and_bit_manipulation/fast_power.html)|
 |84|[Trailing Zeros](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/TrailingZeros.java)|Easy|Miscellaneous|[Hint](http://blog.csdn.net/wutingyehe/article/details/46882181)|
 |85|[O(1) Check Power of 2](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/O(1)CheckPowerof2.java)|Easy|Miscellaneous|[Hint](http://www.code123.cc/docs/leetcode-notes/math_and_bit_manipulation/o1_check_power_of_2.html)|
+|86|[Partition Array](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/PartitionArray.java)|Medium|Miscellaneous||
+|87|[Sort Letters By Case](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/SortLettersByCase.java)|Medium|Miscellaneous||
+|88|[Sort Colors](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/SortColors.java)|Medium|Miscellaneous||
+

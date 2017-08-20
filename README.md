@@ -95,6 +95,14 @@
 |90|[Kth Smallest Number in Sorted Matrix](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/KthSmallestNumberinSortedMatrix.java)|Medium|Data Structure||
 |91|[Kth Largest in N Arrays](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/KthLargestinNArrays.java)|Medium|Data Structure||
 |92|[Kth Smallest Sum In Two Sorted Arrays](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/KthSmallestSumInTwoSortedArrays.java)|Hard|Data Structure||
+|93|[Connecting Graph](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/ConnectingGraph.java)|Easy|Data Structure||
+|94|[Connecting Graph II](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/ConnectingGraphII.java)|Medium|Data Structure||
+|95|[ConnectingGraph III](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/ConnectingGraphIII.java)|Medium|Data Structure||
+|96|[Connecting Graph II](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/ConnectingGraphII.java)|Medium|Data Structure||
+|97|[Number of Islands](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/NumberofIslands.java)|Easy|Data Structure||
+|98|[Number of Islands II](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/NumberofIslandsII.java)|Hard|Data Structure||
+
+
 
 
 

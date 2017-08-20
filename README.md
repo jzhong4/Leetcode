@@ -98,13 +98,12 @@
 |93|[Connecting Graph](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/ConnectingGraph.java)|Easy|Data Structure||
 |94|[Connecting Graph II](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/ConnectingGraphII.java)|Medium|Data Structure||
 |95|[ConnectingGraph III](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/ConnectingGraphIII.java)|Medium|Data Structure||
-|96|[Connecting Graph II](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/ConnectingGraphII.java)|Medium|Data Structure||
-|97|[Number of Islands](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/NumberofIslands.java)|Easy|Data Structure||
-|98|[Number of Islands II](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/NumberofIslandsII.java)|Hard|Data Structure||
-|96|[Implement Trie](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/ImplementTrie.java)|Medium|Data Structure||
-|100|[Word Search II](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/WordSearchII.java)|Hard|Data Structure||
-|101|[Add and Search Word](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/AddAndSearchWord.java)|Medium|Data Structure||
-|102|[Number of Airplanes in the Sky](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/NumberofAirplanesintheSky.java)|Medium|Data Structure||
+|96|[Number of Islands](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/NumberofIslands.java)|Easy|Data Structure||
+|97|[Number of Islands II](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/NumberofIslandsII.java)|Hard|Data Structure||
+|98|[Implement Trie](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/ImplementTrie.java)|Medium|Data Structure||
+|99|[Word Search II](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/WordSearchII.java)|Hard|Data Structure||
+|100|[Add and Search Word](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/AddAndSearchWord.java)|Medium|Data Structure||
+|101|[Number of Airplanes in the Sky](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/NumberofAirplanesintheSky.java)|Medium|Data Structure||
 
 
 

@@ -104,6 +104,9 @@
 |96|[Implement Trie](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/ImplementTrie.java)|Medium|Data Structure||
 |100|[Word Search II](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/WordSearchII.java)|Hard|Data Structure||
 |101|[Add and Search Word](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/AddAndSearchWord.java)|Medium|Data Structure||
+|102|[Number of Airplanes in the Sky](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/NumberofAirplanesintheSky.java)|Medium|Data Structure||
+)|Medium|Data Structure||
+
 
 
 

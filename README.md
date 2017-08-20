@@ -91,4 +91,6 @@
 |86|[Partition Array](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/PartitionArray.java)|Medium|Miscellaneous||
 |87|[Sort Letters By Case](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/SortLettersByCase.java)|Medium|Miscellaneous||
 |88|[Sort Colors](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/SortColors.java)|Medium|Miscellaneous||
+|89|[Triangle Count](https://github.com/jzhong4/Leetcode/blob/master/TwoPointers/TriangleCount.java)|Medium|Two pointers||
+
 

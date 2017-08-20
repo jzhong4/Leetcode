@@ -92,5 +92,10 @@
 |87|[Sort Letters By Case](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/SortLettersByCase.java)|Medium|Miscellaneous||
 |88|[Sort Colors](https://github.com/jzhong4/Leetcode/blob/master/Miscellaneous/SortColors.java)|Medium|Miscellaneous||
 |89|[Triangle Count](https://github.com/jzhong4/Leetcode/blob/master/TwoPointers/TriangleCount.java)|Medium|Two pointers||
+|90|[Kth Smallest Number in Sorted Matrix](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/KthSmallestNumberinSortedMatrix.java)|Medium|Data Structure||
+|91|[Kth Largest in N Arrays](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/KthLargestinNArrays.java)|Medium|Data Structure||
+|92|[Kth Smallest Sum In Two Sorted Arrays](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/KthSmallestSumInTwoSortedArrays.java)|Hard|Data Structure||
+
+
 
 

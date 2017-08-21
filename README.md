@@ -104,6 +104,12 @@
 |99|[Word Search II](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/WordSearchII.java)|Hard|Data Structure||
 |100|[Add and Search Word](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/AddAndSearchWord.java)|Medium|Data Structure||
 |101|[Number of Airplanes in the Sky](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/NumberofAirplanesintheSky.java)|Medium|Data Structure||
+|102|[Trapping Rain Water](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/NumberofAirplanesintheSky.java)|Medium|Data Structure||
+|103|[Trapping Rain Water II](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/TrappingRainWaterII.java)|Hard|Data Structure||
+|104|[The Skyline Problem](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/TheSkylineProblem.java)|Hard|Data Structure||
+|105|[Find Median from Data Stream](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/FindMedianfromDataStream.java)|Medium|Data Structure||
+|106|[Sliding Window Median](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/SlidingWindowMedian.java)|Hard|Data Structure||
+|107|[Sliding Window Maximum](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/SlidingWindowMaximum.java)|Hard|Data Structure||
 
 
 

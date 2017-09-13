@@ -14,11 +14,12 @@ public class Solution {
         
         HashMap<RandomListNode, RandomListNode> map = new HashMap<RandomListNode, RandomListNode>();
         RandomListNode node = head;
+        // map node and node'
         while(node != null){
             map.put(node, new RandomListNode(node.label));
             node = node.next;
         }
-        
+        // map next and random
         node = head;
         while(node != null){
             map.get(node).next = map.get(node.next);

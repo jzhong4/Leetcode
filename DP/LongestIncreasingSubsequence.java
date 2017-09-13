@@ -14,7 +14,7 @@
  For [5, 4, 1, 2, 3], the LIS is [1, 2, 3], return 3
  For [4, 2, 4, 5, 3, 7], the LIS is [2, 4, 5, 7], return 4
 */
-// f[i]表示前i个数字中以第i个结尾的LIS的长度
+// f[i]表示前i个数字中以第i个结尾的LIS的长度 f[i] = Math.max(f[j] + 1, f[i])。每一点都需要存储当前最大值。
 public class Solution {
     /**
      * @param nums: The integer array
@@ -26,7 +26,7 @@ public class Solution {
         }
         
         int[] f = new int[nums.length];
-        int max = Integer.MIN_VALUE;
+        int max = Integer.MIN_VALUE; // 如果max = 0，就无需考虑corner case
         for(int i = 0; i < nums.length; i++){
             f[i] = 1;
             for(int j = 0; j < i; j++){

@@ -19,22 +19,22 @@
  return 3. 
  Solution: 考虑如何想到并查集上面，x = i * m + j(i行j列)，有多少1就有多少个count，相互链接后，count减一。
 */
-class UnionFind { 
+class UnionFind {
     
     private int[] father;
     private int count;
     
     private int find(int x){
-        if(father[x] == 0){
+        if(father[x] == x){
             return x;
         }
         return father[x] = find(father[x]);
     }
     
     public UnionFind(int n){
-        father = new int[n + 1];
-        for(int i = 1; i <= n; i++){
-            father[i] = 0;
+        father = new int[n];
+        for(int i = 0; i < n; i++){
+            father[i] = i;
         }
     }
     
@@ -57,13 +57,12 @@ class UnionFind {
     
 }
 
-
 public class Solution {
     /**
      * @param grid a boolean 2D matrix
      * @return an integer
      */
-    public int numIslands(boolean[][] grid) {
+    public int numIslands(char[][] grid) {
         int n = grid.length;
         if(n == 0){
             return 0;
@@ -71,13 +70,13 @@ public class Solution {
         int m = grid[0].length;
         if(m == 0){
             return 0;
-        } 
+        }
         UnionFind unionFind = new UnionFind(m * n);
         
         int count = 0;
         for(int i = 0; i < n; i++){
             for(int j = 0; j < m; j++){
-                if(grid[i][j]){
+                if(grid[i][j] == '1'){
                     count++;
                 }
             }
@@ -86,21 +85,20 @@ public class Solution {
         
         for(int i = 0; i < n; i++){
             for(int j = 0; j < m; j++){
-                if(grid[i][j]){
-                    if(i > 0 && grid[i - 1][j]){
+                if(grid[i][j] == '1'){
+                    if(i > 0 && grid[i - 1][j] == '1'){
                         unionFind.connect(i * m + j, (i - 1) * m + j);
                     }
-                    if(j < m - 1 && grid[i][j + 1]){
+                    if(j < m - 1 && grid[i][j + 1] == '1'){
                         unionFind.connect(i * m + j, i * m + (j + 1));
                     }
-                    if(i < n - 1 && grid[i + 1][j]){
+                    if(i < n - 1 && grid[i + 1][j] == '1'){
                         unionFind.connect(i * m + j, (i + 1) * m + j);
                     }
-                    if(j > 0 && grid[i][j - 1]){
+                    if(j > 0 && grid[i][j - 1] == '1'){
                         unionFind.connect(i * m + j, i * m + (j - 1));
                     }
                 }
-                
             }
         }
         return unionFind.query();

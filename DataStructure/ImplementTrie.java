@@ -3,85 +3,135 @@
  Date:       Aug 18, 2017
  Problem:    Implement Trie
  Difficulty: Medium
- Source:     http://www.lintcode.com/en/problem/implement-trie/
+ Source:     https://leetcode.com/problems/implement-trie-prefix-tree/description/
  Implement a trie with insert, search, and startsWith methods.
- Notice
- You may assume that all inputs are consist of lowercase letters a-z.
- Example
- insert("lintcode")
- search("code")
- >>> false
- startsWith("lint")
- >>> true
- startsWith("linterror")
- >>> false
- insert("linterror")
- search("lintcode)
- >>> true
- startsWith("linterror")
- >>> true
+Note:
+You may assume that all inputs are consist of lowercase letters a-z.
 */
-/**
- * Your Trie object will be instantiated and called as such:
- * Trie trie = new Trie();
- * trie.insert("lintcode");
- * trie.search("lint"); will return false
- * trie.startsWith("lint"); will return true
- */
-class TrieNode {
-    public HashMap<Character, TrieNode> children;
-    public boolean hasWord;
-    
-    public TrieNode() {
-        children = new HashMap<Character, TrieNode>();
-        hasWord = false;
-    }
-}
-
-public class Trie {
+//Version 1: HashMap of TrieNode
+class Trie {
     private TrieNode root;
+    
+    class TrieNode {
+        private HashMap<Character, TrieNode> children;
+        private boolean hasWord;
+        
+        public TrieNode(){
+            children = new HashMap<Character, TrieNode>();
+            hasWord = false;
+        }
+    }
 
+
+    /** Initialize your data structure here. */
     public Trie() {
         root = new TrieNode();
     }
-
-    // Inserts a word into the trie.
+    
+    /** Inserts a word into the trie. */
     public void insert(String word) {
-        TrieNode now = root;
+        TrieNode cur = root;
         for(int i = 0; i < word.length(); i++){
-            Character c = word.charAt(i);
-            if(!now.children.containsKey(c)){
-                now.children.put(c, new TrieNode());
+            char c = word.charAt(i);
+            if(cur.children.get(c) == null){
+                cur.children.put(c, new TrieNode());
             }
-            now = now.children.get(c);
+            cur = cur.children.get(c);
         }
-        now.hasWord = true;
+        cur.hasWord = true;
     }
-
-    // Returns if the word is in the trie.
+    
+    /** Returns if the word is in the trie. */
     public boolean search(String word) {
-        TrieNode now = root;
+        TrieNode cur = root;
         for(int i = 0; i < word.length(); i++){
-            Character c = word.charAt(i);
-            if(!now.children.containsKey(c)){
+            char c = word.charAt(i);
+            if(cur.children.get(c) == null){
                 return false;
             }
-            now = now.children.get(c);
+            cur = cur.children.get(c);
         }
-        return now.hasWord;
+        return cur.hasWord;
     }
-
-    // Returns if there is any word in the trie
-    // that starts with the given prefix.
+    
+    /** Returns if there is any word in the trie that starts with the given prefix. */
     public boolean startsWith(String prefix) {
-        TrieNode now = root;
+        TrieNode cur = root;
         for(int i = 0; i < prefix.length(); i++){
-            Character c = prefix.charAt(i);
-            if(!now.children.containsKey(c)){
-                return false;
+             char c = prefix.charAt(i);
+            if(cur.children.get(c) == null){
+               return false;
             }
-            now = now.children.get(c);
+             cur = cur.children.get(c);
         }
         return true;
     }
 }
+
+//Version 2: Array of TrieNode
+class Trie {
+    private TrieNode root;
+    
+    class TrieNode {
+        private TrieNode[] children;
+        private boolean hasWord;
+        
+        public TrieNode(){
+            children = new TrieNode[26];
+            hasWord = false;
+        }
+    }
+
+
+    /** Initialize your data structure here. */
+    public Trie() {
+        root = new TrieNode();
+    }
+    
+    /** Inserts a word into the trie. */
+    public void insert(String word) {
+        TrieNode cur = root;
+        for(int i = 0; i < word.length(); i++){
+            int pos = word.charAt(i) - 'a';
+            if(cur.children[pos] == null){
+                cur.children[pos] = new TrieNode();
+            }
+            cur = cur.children[pos];
+        }
+        cur.hasWord = true;
+    }
+    
+    /** Returns if the word is in the trie. */
+    public boolean search(String word) {
+        TrieNode cur = root;
+        for(int i = 0; i < word.length(); i++){
+            int pos = word.charAt(i) - 'a';
+            if(cur.children[pos] == null){
+               return false;
+            }
+            cur = cur.children[pos];
+        }
+        return cur.hasWord;
+    }
+    
+    /** Returns if there is any word in the trie that starts with the given prefix. */
+    public boolean startsWith(String prefix) {
+        TrieNode cur = root;
+        for(int i = 0; i < prefix.length(); i++){
+            int pos = prefix.charAt(i) - 'a';
+            if(cur.children[pos] == null){
+               return false;
+            }
+            cur = cur.children[pos];
+        }
+        return true;
+    }
+}
+
+/**
+ * Your Trie object will be instantiated and called as such:
+ * Trie obj = new Trie();
+ * obj.insert(word);
+ * boolean param_2 = obj.search(word);
+ * boolean param_3 = obj.startsWith(prefix);
+ */

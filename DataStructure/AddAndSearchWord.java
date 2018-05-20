@@ -18,8 +18,9 @@
  search("bad")  // return true
  search(".ad")  // return true
  search("b..")  // return true 
- Solution: 递归去判断.的情况。考虑26个小写字母。
+ Solution: .考虑26个字母，循环判断是否在trie里面
 */
+// Trie: hashmap implementation 
 class TrieNode{
     HashMap<Character, TrieNode> children;
     boolean hasWord;
@@ -81,7 +82,69 @@ public class WordDictionary {
     
 }
 
-// Your WordDictionary object will be instantiated and called as such:
-// WordDictionary wordDictionary = new WordDictionary();
-// wordDictionary.addWord("word");
-// wordDictionary.search("pattern");
+// Trie: array implementation
+class WordDictionary {
+    private TrieNode root;
+    
+    class TrieNode {     
+        private TrieNode[] children;
+        private boolean hasWord;
+        
+        public TrieNode(){
+            children = new TrieNode[26];
+            hasWord = false;
+        }
+    }
+
+    /** Initialize your data structure here. */
+    public WordDictionary() {
+        root = new TrieNode();
+    }
+    
+    /** Adds a word into the data structure. */
+    public void addWord(String word) {
+        TrieNode cur = root;
+        for(int i = 0; i < word.length(); i++){
+            int pos = word.charAt(i) - 'a';
+            if(cur.children[pos] == null){
+                cur.children[pos] = new TrieNode();
+            }
+            cur = cur.children[pos];
+        }
+        cur.hasWord = true;
+    }
+    
+    private boolean find(String word, int index, TrieNode cur){
+        if(word.length() == index){
+            return cur.hasWord;
+        }
+        
+        Character c = word.charAt(index);
+        if(c == '.'){
+            for(int i = 0; i < 26; i++){
+                if(cur.children[i] != null){
+                    if(find(word, index + 1, cur.children[i])){
+                        return true;
+                    }
+                }
+            }
+            return false;
+        }else if(cur.children[c - 'a'] != null){
+            return find(word, index + 1, cur.children[c - 'a']);
+        }else{
+           return false; 
+        }
+    }
+    
+    /** Returns if the word is in the data structure. A word could contain the dot character '.' to represent any one letter. */
+    public boolean search(String word) {
+        return find(word, 0, root);
+    }
+}
+
+/**
+ * Your WordDictionary object will be instantiated and called as such:
+ * WordDictionary obj = new WordDictionary();
+ * obj.addWord(word);
+ * boolean param_2 = obj.search(word);
+ */

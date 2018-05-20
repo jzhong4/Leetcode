@@ -110,6 +110,8 @@
 |105|[Find Median from Data Stream](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/FindMedianfromDataStream.java)|Medium|Data Structure||
 |106|[Sliding Window Median](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/SlidingWindowMedian.java)|Hard|Data Structure||
 |107|[Sliding Window Maximum](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/SlidingWindowMaximum.java)|Hard|Data Structure||
+|108|[Graph Valid Tree](https://github.com/jzhong4/Leetcode/blob/master/DataStructure/GraphValidTree.java)|Medium|Data Structure||
+
 
 
 
